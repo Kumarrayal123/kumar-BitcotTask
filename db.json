@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "kumar kardam",
+      "email": "kumar13@gmail.com",
+      "phone": "8688860223",
+      "address": "Hyderabad"
+    },
+    {
+      "id": "2",
+      "name": "pavan",
+      "email": "pavan@gmail.com",
+      "phone": "9848855763",
+      "address": "Hyderabad"
+    },
+    {
+      "id": "3",
+      "name": "rakesh",
+      "email": "rakesh@gmail.com",
+      "phone": "9381829448",
+      "address": "chennai"
+    },
+    {
+      "id": "5",
+      "name": "raju",
+      "email": "raju@gmail.com",
+      "phone": "7645907856",
+      "address": "Banglore"
+    }
+  ]
+}
