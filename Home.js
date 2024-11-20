@@ -7,15 +7,15 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
   const [data, setData] = useState([]);
-  const [searchTerm, setSearchTerm] = useState(""); // State for search input
-  const [filteredData, setFilteredData] = useState([]); // State for filtered data
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredData, setFilteredData] = useState([]); 
 
   useEffect(() => {
     axios
       .get("http://localhost:3000/users")
       .then((res) => {
         setData(res.data);
-        setFilteredData(res.data); // Initialize filteredData with all users
+        setFilteredData(res.data); 
       })
       .catch((err) => console.log(err));
   }, []);
